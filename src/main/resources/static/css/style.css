@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    border: 1px black solid;
+    /*border: 1px black solid;*/
 
 }
 input,textarea{
@@ -34,7 +34,7 @@ li,a{
 .grid {
     display: grid;
     grid-template-columns: 150px auto 150px;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, auto);
     grid-gap: 1em;
 }
 
@@ -63,6 +63,12 @@ footer {
     grid-column: 1 / 4;
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
 .nav {
     background-color: #333;
     overflow: hidden;
@@ -89,6 +95,11 @@ footer {
     color: white;
 }
 
+.banner-text {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
 
 @media (min-width: 1281px) {
 
