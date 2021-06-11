@@ -59,6 +59,19 @@ article {
 footer {
     grid-row: 3;
     grid-column: 1 / 4;
+    display: flex;
+    background-color: #202020;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+    margin-top: auto;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 100px 0;
+}
+th {
+    text-align: center;
 }
 
 .bottom-left {
