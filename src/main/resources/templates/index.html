@@ -21,7 +21,28 @@
     </header>
 
     <article>
-        Article
+        <div class="container" style="display: flex;">
+            <div style="width: 50%;">
+                <img th:src="@{/img/face.jpg/}" style="width: 100%;">
+            </div>
+            <div style="flex-grow: 1;">
+                <h2 style="padding-top: 30px;">Michael Troia</h2>
+                <br>
+                <div class="vertical" style="padding: 10%;">
+                    <div>
+                        <p>Web/Software Developer, Veteran, Composer, Game Dev, 3D Artist, Dad</p>
+                        <div class="horizontal">
+                            <div class="side">
+                                <button>Contact</button>
+                            </div>
+                            <div class="side">
+                                <button>Resume</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <footer th:replace="partials/footer :: footer"></footer>

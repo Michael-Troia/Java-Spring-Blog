@@ -4,14 +4,12 @@
     margin:0;
     box-sizing:border-box;
     /*border: 1px black solid;*/
-
 }
 input,textarea{
 
     outline:none
 
 }
-
 
 button,input[type="submit"]{
 
@@ -95,12 +93,31 @@ footer {
     color: white;
 }
 
+.container {
+    padding: 20px;
+}
+
 .banner-text {
     text-decoration: none;
     color: white;
     font-size: xx-large;
 }
 
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+h2, p {
+    text-align: center;
+}
 @media (min-width: 1281px) {
 
 }
