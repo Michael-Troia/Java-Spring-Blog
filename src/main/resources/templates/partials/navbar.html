@@ -6,10 +6,10 @@
 </head>
 <body>
 <div th:fragment="navbar" class="nav" id="myNav">
-    <a href="#home" class="active">Home</a>
-    <a href="#Page1">Page 1</a>
-    <a href="#Page2">Page 2</a>
-    <a href="#Page3">Page 3</a>
+    <a th:href="@{/}" class="active">Home</a>
+    <a th:href="@{/what-im-doing}">What I'm Doing</a>
+    <a th:href="@{/projects}">Projects</a>
+    <a th:href="@{/more}">More</a>
 </div>
 </body>
 </html>
