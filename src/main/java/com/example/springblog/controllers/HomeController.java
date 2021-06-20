@@ -22,4 +22,6 @@ public class HomeController {
     @GetMapping("/what-im-doing")
     public String showWhatImDoing() { return "what-im-doing"; }
 
+    @GetMapping("/projects/weather")
+    public String showWeatherMap() { return "projects/weather"; }
 }
