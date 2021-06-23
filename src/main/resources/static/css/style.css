@@ -172,6 +172,21 @@ th {
 h2, p {
     text-align: center;
 }
+
+/*-----coffee project-----*/
+.coffee {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.coffee:hover {
+    background-color: #484848;
+    color: white;
+}
+/*-----coffee project-----*/
+
 @media (min-width: 1281px) {
 
 }
