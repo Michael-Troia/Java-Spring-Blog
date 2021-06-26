@@ -16,8 +16,8 @@ public class HomeController {
     @GetMapping("/more")
     public String showMore() { return "more"; }
 
-    @GetMapping("/projects")
-    public String showProjects() { return "projects"; }
+//    @GetMapping("/projects")
+//    public String showProjects() { return "projects"; }
 
     @GetMapping("/what-im-doing")
     public String showWhatImDoing() { return "what-im-doing"; }
