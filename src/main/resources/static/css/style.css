@@ -167,6 +167,7 @@ th {
 
 .card-container {
     padding: 16px;
+    /*border: 1px solid black;*/
 }
 
 .centered {
@@ -213,9 +214,25 @@ th {
 
 .summary { grid-area: summary; }
 
-.left { grid-area: left; }
+.left {
+    grid-area: left;
+    padding: 16px;
+    border: 1px solid black;
+}
 
-.right { grid-area: right; }
+.right {
+    grid-area: right;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.top-banner {
+    padding: 15px;
+    text-align: center;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 30px;
+}
 
 @media (min-width: 1281px) {
 
