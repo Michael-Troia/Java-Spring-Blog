@@ -27,4 +27,7 @@ public class HomeController {
 
     @GetMapping("projects/coffee")
     public String showCoffeeProj() { return "projects/coffee"; }
+
+    @GetMapping("projects/character-parser")
+    public String showParserProj() { return "projects/character-parser"; }
 }
