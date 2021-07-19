@@ -16,8 +16,8 @@ public class HomeController {
     @GetMapping("/more")
     public String showMore() { return "more"; }
 
-//    @GetMapping("/projects")
-//    public String showProjects() { return "projects"; }
+    @GetMapping("/blog")
+    public String showBlog() { return "blog"; }
 
     @GetMapping("/what-im-doing")
     public String showWhatImDoing() { return "what-im-doing"; }
@@ -30,4 +30,6 @@ public class HomeController {
 
     @GetMapping("projects/character-parser")
     public String showParserProj() { return "projects/character-parser"; }
+
+
 }
