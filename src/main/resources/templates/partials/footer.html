@@ -12,14 +12,13 @@
             <th>Links</th>
         </tr>
         <tr>
-            <td><a data-toggle="modal" data-target="#exampleModalCenter">Contact me</a></td>
-            <td><a href="img/MichaelTroia-Resume.pdf" download="MichaelTroia_Resume" style="text-decoration: none; color: white;">Resume</a></td>
+            <td><a th:href="@{/doc/Michael_A_Troia_Resume.docx/}" download="MichaelTroia_Resume" style="text-decoration: none; color: white;">Resume</a></td>
         </tr>
         <tr>
             <td>
                 <i class="far fa-envelope"> troia.michael.a@gmail.com</i><br>
             </td>
-            <td><a onclick="showBlog();">Blog</a></td>
+            <td><a th:href="@{/blog}" style="text-decoration: none; color: white;">Blog</a></td>
         </tr>
         <tr>
             <td>
